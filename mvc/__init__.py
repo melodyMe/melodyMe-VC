@@ -6,7 +6,7 @@ from mvc import conversion
 from mvc import signals
 from mvc import video
 
-VERSION = '3.0a'
+VERSION = '1.0a'
 
 class Application(signals.SignalEmitter):
 
