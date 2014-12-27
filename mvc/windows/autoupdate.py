@@ -1,32 +1,3 @@
-# Miro - an RSS based video player application
-# Copyright (C) 2012
-# Participatory Culture Foundation
-#
-# This program is free software; you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation; either version 2 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program; if not, write to the Free Software
-# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
-#
-# In addition, as a special exception, the copyright holders give
-# permission to link the code of portions of this program with the OpenSSL
-# library.
-#
-# You must obey the GNU General Public License in all respects for all of
-# the code used other than OpenSSL. If you modify file(s) with this
-# exception, you may extend this exception to your version of the file(s),
-# but you are not obligated to do so. If you do not wish to do so, delete
-# this exception statement from your version. If you delete this exception
-# statement from all source files in the program, then also delete it here.
-
 """Autoupdate functionality """
 
 import ctypes
@@ -35,7 +6,7 @@ import logging
 
 winsparkle = ctypes.cdll.WinSparkle
 
-APPCAST_URL = 'http://miro-updates.participatoryculture.org/mvc-appcast.xml'
+APPCAST_URL = 'http://updates.plexilabs.me/en/melodyMe/video-converter/update.xml'
 
 def startup():
     enable_automatic_checks()
@@ -60,8 +31,8 @@ def open_winsparkle_key():
     """
     with open_or_create_key(winreg.HKEY_CURRENT_USER, "Software") as software:
 	with open_or_create_key(software,
-		"Participatory Culture Foundation") as pcf:
-	    with open_or_create_key(pcf, "Miro Video Converter") as mvc:
+		"PlexiLabs") as pcf:
+	    with open_or_create_key(pcf, "melodyMe Video Converter") as mvc:
 		return open_or_create_key(mvc, "WinSparkle",
 			write_access=True)
 
