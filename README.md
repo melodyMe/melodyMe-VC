@@ -1,8 +1,8 @@
-# Miro Video Converter 3 [![Build Status](https://secure.travis-ci.org/pculture/mirovideoconverter3.png)](http://travis-ci.org/pculture/mirovideoconverter3) #
+# melodyMe Video Converter [![Build Status](https://secure.travis-ci.org/pculture/mirovideoconverter3.png)](http://travis-ci.org/pculture/mirovideoconverter3) #
 
 ## About ##
 
-[Miro Video Converter](http://www.mirovideoconverter.com) is super simple way to convert almost any video to MP4, WebM (vp8), Ogg Theora, or for Android, iPhone, and more.
+[melodyMe Video Converter](http://www.mirovideoconverter.com) is super simple way to convert almost any video to MP4, WebM (vp8), Ogg Theora, or for Android, iPhone, and more.
 
 This is an in-progress rewrite of the existing application.  If you're looking for that code, it's [over here](http://github.com/pculture/mirovideoconverter).
 
