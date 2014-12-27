@@ -1,4 +1,4 @@
-"""``miro.frontends.widgets.cellpack`` -- Code to layout
+"""``melodyMe.frontends.widgets.cellpack`` -- Code to layout
 CustomTableCells.
 
 We use the hbox/vbox model to lay things out with a couple changes.
