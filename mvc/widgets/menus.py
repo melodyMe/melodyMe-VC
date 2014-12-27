@@ -58,7 +58,7 @@ class MenuItemFetcher(object):
 def get_app_menu():
     """Returns the default menu structure."""
 
-    app_name = "Miro Video Converter"    # XXX HACK
+    app_name = "melodyMe Video Converter"    # XXX HACK
 
     file_menu = widgetset.Menu(_("_File"), "FileMenu", [
                     MenuItem(_("_Open"), "Open", Shortcut("o", MOD),
@@ -153,7 +153,7 @@ class MenuManager(signals.SignalEmitter):
         self.subtitle_encoding_updater = None
 
     def setup_menubar(self, menubar):
-        """Setup the main miro menubar.
+        """Setup the main melodyMe menubar.
         """
         menubar.add_initial_menus(get_app_menu())
         menubar.connect("activate", on_menubar_activate)
