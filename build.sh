@@ -3,12 +3,12 @@
 set -e
 
 if [ -z ${SANDBOX_PATH} ]; then
-    echo "you must set SANDBOX_PATH to point to the built miro sandbox"
+    echo "you must set SANDBOX_PATH to point to the built melodyMe sandbox"
     exit 1
 fi
 
 if [ -z ${BKIT_PATH} ]; then
-    echo "you must set BKIT_PATH to point to the miro binary kit"
+    echo "you must set BKIT_PATH to point to the melodyMe binary kit"
     exit
 fi
 
