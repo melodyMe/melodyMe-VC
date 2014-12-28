@@ -124,13 +124,13 @@ setup(
     windows=[
         {'script': 'mvc/windows/exe_main.py',
         'dest_base': 'mvc',
-	'company_name': 'Participatory Culture Foundation',
+	'company_name': 'PlexiLabs',
         },
     ],
     console=[
         {'script': 'mvc/windows/exe_main.py',
         'dest_base': 'mvcdebug',
-	'company_name': 'Participatory Culture Foundation',
+	'company_name': 'PlexiLabs',
         },
     ],
     data_files=data_files(),
