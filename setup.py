@@ -1,16 +1,16 @@
 import os
 import sys
 
-version = '3.0.2'
+version = '1.0.0'
 
 # platform-independent arguments for setup()
 setup_args = {
-    'name': 'mirovideoconverter',
-    'description': 'Miro Video Converter is super simple way to convert almost any video to MP4, WebM (vp8), Ogg Theora, or for Android, iPhone, and more.',
-    'author': 'Participatory Culture Foundation',
-    'author_email': 'ben@pculture.org',
-    'url': 'http://www.mirovideoconverter.com/',
-    'license': 'GPL',
+    'name': 'melodyMe Video Converter',
+    'description': 'melodyMe Video Converter is super simple way to convert almost any video to MP4, WebM (vp8), Ogg Theora, or for Android, iPhone, and more.',
+    'author': 'PlexiLabs',
+    'author_email': 'info@plexilabs.me',
+    'url': 'http://video-converter.melodyme.net',
+    'license': 'MIT',
     'version': version,
     'packages': [
         'mvc',
