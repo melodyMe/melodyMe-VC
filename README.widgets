@@ -5,7 +5,7 @@ do diff on it.
 General rule is that anything in gtk/cocoa is pretty much fair game,
 there's usually some good reason for stuff in miro.frontends.widgets.
 
-For stuff in miro namespace, think carefully before adding it, with
+For stuff in melodyMe namespace, think carefully before adding it, with
 the exception if it is utilty functions (which we will further abstract
 away) or a base class of a platform impementation (such as player.Player).
 
