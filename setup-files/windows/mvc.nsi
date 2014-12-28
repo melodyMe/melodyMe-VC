@@ -1,14 +1,14 @@
 ; Passed in from command line:
-!define  CONFIG_VERSION "0.8.0"
+!define  CONFIG_VERSION "1.0.0"
 
 ; TODO: Add MIROBAR_EXE
-!define CONFIG_PROJECT_URL "http://www.mirovideoconverter.com/"
+!define CONFIG_PROJECT_URL "http://video-converter.melodyme.net/"
 !define CONFIG_SHORT_APP_NAME "MVC"
-!define CONFIG_LONG_APP_NAME  "Miro Video Converter"
-!define CONFIG_PUBLISHER "Participatory Culture Foundation"
+!define CONFIG_LONG_APP_NAME  "melodyMe Video Converter"
+!define CONFIG_PUBLISHER "PlexiLabs"
 !define CONFIG_ICON "mvc-logo.ico"
 !define CONFIG_EXECUTABLE "mvc.exe"
-!define CONFIG_OUTPUT_FILE "MiroVideoConverter.exe"
+!define CONFIG_OUTPUT_FILE "melodyMeVideoConverter.exe"
 
 !define INST_KEY "Software\${CONFIG_PUBLISHER}\${CONFIG_LONG_APP_NAME}"
 !define UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${CONFIG_LONG_APP_NAME}"
